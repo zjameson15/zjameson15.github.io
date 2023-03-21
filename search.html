@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <h1>Z's Search-a-nator</h1>
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <form action="https://www.google.com/search" method="get">
+      <fieldset>
+        <legend>Search Options</legend>
+        <label for="searchBox">Search Keywords:</label>
+        <input type="text" id="searchBox" name="q">
+        <br>
+        <label for="exactPhrase">Exact Phrase:</label>
+        <input type="text" id="exactPhrase" name="as_epq">
+        <br>
+        <label for="excludeWords">Exclude Words:</label>
+        <input type="text" id="excludeWords" name="as_eq">
+        <br>
+        <label for="siteSearch">Site Search:</label>
+        <input type="text" id="siteSearch" name="as_sitesearch">
+        <br>
+        <label for="fileType">File Type:</label>
+        <select id="fileType" name="as_filetype">
+          <option value="">Any</option>
+          <option value="pdf">PDF</option>
+          <option value="doc">Word</option>
+          <option value="xls">Excel</option>
+          <option value="ppt">PowerPoint</option>
+        </select>
+      </fieldset>
+      <br>
+      <button type="submit">Search</button>
+    </form>
+    <div>
+        <p>
+            <a href="https://zjameson15.github.io/">Back to Home</a>
+        </p>
+    </div>
+  </body>
+</html>
