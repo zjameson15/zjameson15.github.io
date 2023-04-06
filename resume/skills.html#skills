@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Resume</title>
+    </head>
+    <body>
+        <nav>
+            <h1>Z Jameson</h1>
+            <ul>
+                <li><a href=index.html#contactinfo>Contact Info</a></li>
+                <li><a href=index.html#education>Education</a></li>
+                <li><a href=index.html#experience>Experience</a></li>
+                <li><a href=skills.html#skills>Skills</a></li>
+            </ul>
+        </nav>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>zcritical Thinker</li>
+                <li>Problem Solving Leader</li>
+                <li>Helpful</li>
+            </ul>
+        </section>
+    </body>
+</html>
