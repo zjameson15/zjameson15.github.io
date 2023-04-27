@@ -32,3 +32,45 @@ img {
 html {
   text-align: center;
 }
+/* Set the maximum width of the website */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Use a fluid layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+/* Set the width of each column */
+.col {
+  width: 100%;
+  padding: 0 15px;
+}
+
+/* Use relative font sizes */
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* Use media queries to adjust the layout for different screen sizes */
+@media screen and (min-width: 768px) {
+  /* Adjust the layout for tablets and larger screens */
+  .col {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Adjust the layout for larger screens */
+  .col {
+    width: 33.333%;
+  }
+}
